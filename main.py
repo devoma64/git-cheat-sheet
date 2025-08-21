@@ -1,3 +1,7 @@
+# import function from marv.py
+from marv import get_marv_info
+
+
 def print_hello(name):
     return f"Hello, {name}"
 
@@ -8,3 +12,6 @@ def add(a:int, b:int) -> int:
 
 result = add(5, 5)
 print(result)
+
+
+print(get_marv_info())

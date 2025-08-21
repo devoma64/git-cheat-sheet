@@ -4,3 +4,10 @@ def print_hello(name):
 
 response = print_hello("Marv")
 print(response)
+
+
+def add(a:int, b:int) -> int:
+    return a + b
+
+result = add(5, 5)
+print(result)
